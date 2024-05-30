@@ -57,24 +57,6 @@
         }
       ],
       "description": "Look stylish while stomping in the mud."
-    },
-    {
-      "id": 4,
-      "category": "boards",
-      "image": "board2.jpg",
-      "name": "Tony",
-      "price": 49.95,
-      "skus": [
-        {
-          "sku": "17",
-          "size": 9
-        },
-        {
-          "sku": "21",
-          "size": 8
-        }
-      ],
-      "description": "This board flies like a Hawk!"
     }
   ],
   "shippingAddress": [

@@ -23,3 +23,9 @@ export async function putProduct(product) {
 	if (response.ok) return response.json();
 	throw response;
 }
+
+export async function deleteProduct(id) {
+	const response = await fetch(baseUrl + "products/" + id, { method: "DELETE" });
+	if (response.ok) return response.json();
+	throw response;
+}
