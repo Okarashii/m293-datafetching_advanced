@@ -17,3 +17,9 @@ export async function postProduct(product) {
 	if (response.ok) return response.json();
 	throw response;
 }
+
+export async function putProduct(product) {
+	const response = await fetch(baseUrl + "products/" + product.id, { method: "PUT", body: product });
+	if (response.ok) return response.json();
+	throw response;
+}
